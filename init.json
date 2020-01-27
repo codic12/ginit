@@ -1,0 +1,17 @@
+{
+	"Task":{
+		"exec":"echo",
+		"args":"this is the first task",
+		"envs":{
+			"env":""
+		}
+	},
+
+	"Task2":{
+		"exec":"echo",
+		"args":"this is the second task",
+		"envs":{
+			"env":""
+		}
+	}
+}
