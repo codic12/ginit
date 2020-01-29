@@ -1,17 +1,22 @@
 {
-	"Task":{
-		"exec":"echo",
-		"args":"this is the first task",
+	"sleep-5":{
+		"exec":"sleep",
+		"args":"30",
 		"envs":{
 			"env":""
 		}
 	},
 
-	"Task2":{
-		"exec":"echo",
-		"args":"this is the second task",
+	"kill-me":{
+		"exec":"ls",
+		"args":"-al",
 		"envs":{
 			"env":""
 		}
+	},
+
+	"echo-me":{
+		"exec":"echo",
+		"args":"Echo completed successfully"
 	}
 }
